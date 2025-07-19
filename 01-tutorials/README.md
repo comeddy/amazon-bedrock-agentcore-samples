@@ -49,12 +49,15 @@ uv init
 ```
 5. Next add the required packages to your `uv` environment:
 ```commandline
-uv add -r requirements.txt --active
-uv add ipython --active
-uv add ipykernel --active
-uv add pandas --active
+uv add -r 01-tutorials/requirements.txt
+uv add ipython ipykernel pandas jupyterlab
 ```
 6. You can start a Jupyter notebook instance from your `uv` environment using:
+```commandline
+uv run jupyter lab
+```
+
+Alternatively, if you prefer to use the temporary installation method:
 ```commandline
 uv run --with jupyter jupyter lab
 ```

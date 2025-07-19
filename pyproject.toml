@@ -1,0 +1,26 @@
+[project]
+name = "amazon-bedrock-agentcore-samples"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "strands-agents[litellm]>=1.0.1",
+    "strands-agents-tools>=0.2.1",
+    "uv>=0.8.0",
+    "boto3>=1.39.9",
+    "langchain[aws]>=0.3.26",
+    "langgraph>=0.5.3",
+    "langsmith[otel]>=0.4.8",
+    "duckduckgo-search>=8.1.1",
+    "langchain-community>=0.3.27",
+    "opentelemetry-instrumentation-langchain>=0.42.0",
+    "bedrock-agentcore>=0.1.0",
+    "bedrock-agentcore-starter-toolkit>=0.1.0",
+    "ipython>=8.37.0",
+    "ipykernel>=6.29.5",
+    "pandas>=2.3.1",
+    "jupyterlab>=4.4.4",
+    "botocore>=1.39.9",
+    "reportlab>=4.4.2",
+]
