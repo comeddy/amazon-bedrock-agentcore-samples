@@ -211,5 +211,76 @@ __marimo__/
 cp/*
 wheelhouse/*
 
+# AWS and Cloud Credentials
+.aws/
+*.pem
+*.p8
+*.p12
+*.pfx
+credentials
+config
+aws-exports.js
+
+# AgentCore Configuration
 .bedrock_agentcore.yaml
+.bedrock_agentcore.yml
+bedrock_agentcore.yaml
+bedrock_agentcore.yml
+
+# API Keys and Secrets
+.secrets/
+secrets/
+*.secret
+*.key
+*.keys
+api_keys.json
+service-account.json
+google-credentials.json
+oauth-credentials.json
+
+# Environment Files
+.env.*
+.environment
+.envrc.*
+
+# Development and IDE
+.vscode/settings.json
+.vscode/launch.json
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary and Cache Files
+tmp/
+temp/
+.tmp/
+.temp/
+*.tmp
+*.temp
+.cache/
+node_modules/
+
+# Build and Distribution
+dist/
+build/
+out/
+target/
+
+# Docker
 .dockerignore
+Dockerfile.local
+docker-compose.override.yml
+
+# Jupyter Notebook Outputs
+*.ipynb_checkpoints/
+
+# Log Files
+*.log
+logs/
+log/
+
+# Database Files
+*.db
+*.sqlite
+*.sqlite3
